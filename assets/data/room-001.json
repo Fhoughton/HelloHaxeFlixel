@@ -23,7 +23,11 @@
         {"name": "Coin", "id": 5, "_eid": "80498742", "x": 272, "y": 32, "originX": 0, "originY": 0},
         {"name": "Coin", "id": 6, "_eid": "80498742", "x": 272, "y": 192, "originX": 0, "originY": 0},
         {"name": "Coin", "id": 7, "_eid": "80498742", "x": 128, "y": 208, "originX": 0, "originY": 0},
-        {"name": "Coin", "id": 8, "_eid": "80498742", "x": 48, "y": 176, "originX": 0, "originY": 0}
+        {"name": "Coin", "id": 8, "_eid": "80498742", "x": 48, "y": 176, "originX": 0, "originY": 0},
+        {"name": "Enemy", "id": 9, "_eid": "80575382", "x": 96, "y": 64, "originX": 0, "originY": 0},
+        {"name": "Enemy", "id": 10, "_eid": "80575382", "x": 176, "y": 64, "originX": 0, "originY": 0},
+        {"name": "Enemy", "id": 11, "_eid": "80575382", "x": 288, "y": 144, "originX": 0, "originY": 0},
+        {"name": "Boss", "id": 12, "_eid": "80570706", "x": 80, "y": 192, "originX": 0, "originY": 0}
       ]
     },
     {
