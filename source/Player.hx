@@ -14,8 +14,7 @@ class Player extends FlxSprite
 		loadGraphic(AssetPaths.player__png, true, 16, 16);
 		setFacingFlip(LEFT, false, false);
 		setFacingFlip(RIGHT, true, false);
-		setSize(8, 8);
-		offset.set(4, 8);
+
 		animation.add("d_idle", [0]);
 		animation.add("lr_idle", [3]);
 		animation.add("u_idle", [6]);
@@ -23,6 +22,8 @@ class Player extends FlxSprite
 		animation.add("lr_walk", [3, 4, 3, 5], 6);
 		animation.add("u_walk", [6, 7, 6, 8], 6);
         drag.x = drag.y = 800;
+		setSize(8, 8);
+		offset.set(4, 4);
 	}
 
     function updateMovement()
